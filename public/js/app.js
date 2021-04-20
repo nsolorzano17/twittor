@@ -1,13 +1,13 @@
 
 var url = window.location.href;
-var swLocation = '/twittor/sw.js';
+var swLocation = '/twittor/public/sw.js';
 
 
 if ( navigator.serviceWorker ) {
 
 
     if ( url.includes('localhost') ) {
-        swLocation = '/public/sw.js';
+        swLocation = '/sw.js';
     }
 
 

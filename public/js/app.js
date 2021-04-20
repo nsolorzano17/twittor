@@ -10,7 +10,7 @@ if ( navigator.serviceWorker ) {
         swLocation = '/sw.js';
     }
 
-
+console.info(swLocation);
     navigator.serviceWorker.register( swLocation );
 }
 
